@@ -4,10 +4,10 @@
 version: 2
 updates:
   - package-ecosystem: pip
-    directory: /fails
+    directory: /pipfile
     schedule:
       interval: daily
   - package-ecosystem: pip
-    directory: /works
+    directory: /lockfile
     schedule:
       interval: daily
