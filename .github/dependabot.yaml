@@ -4,8 +4,10 @@
 version: 2
 updates:
   - package-ecosystem: pip
-    directory: /
+    directory: /fails
     schedule:
       interval: daily
-    ignore:
-      - dependency-name: none
+  - package-ecosystem: pip
+    directory: /works
+    schedule:
+      interval: daily
